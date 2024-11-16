@@ -1,0 +1,159 @@
+body {
+    margin: auto;
+    background-color: white;
+    font-family: Quicksand, sans-serif;
+}
+
+#header {
+    background-color: rgb(26, 23, 23);
+    padding: 0.5px;
+    text-align: center;
+    color: rgb(240, 238, 238);
+}
+
+.main_section {
+    background-color: rgb(26, 23, 23);
+    color: rgb(240, 238, 238);
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
+#div_img {
+    width: 100%;
+    height: 100%;
+}
+
+#img_main {
+    display: block;
+    text-transform: none;
+    border-bottom: 5px solid red; /* Ajusta el grosor y el color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */ 
+}
+
+#img1 {
+    width: 100%;
+    height: 75vh;
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin dejar espacios */
+    display: block;
+}
+
+.padd {
+    padding: 56px 0 56px 0;
+}
+
+.sub_main {
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 0 24px 0 24px;
+    text-align: center;
+}
+
+#head_1 {
+    font-size: 38px;
+    display: inline-block;
+    text-align: center;
+}
+
+#sub_about {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila si no caben */
+    gap: 20px; /* Espacio entre columnas */
+    justify-content: center;
+}
+
+.sub_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 330px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sub_about img {
+    width: 280px; /* Tamaño de la imagen */
+    height: 280px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen al contenedor circular */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.parrafo {
+    color: rgb(26, 23, 23);
+    text-wrap: pretty;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.091em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#header h2, #com h4, #sub p {
+    color: rgb(94, 94, 94);
+    text-align: center;
+}
+
+#but_main {
+    background-color: transparent;
+    color: rgb(240, 238, 238);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#but_main:hover {
+    background-color: white;
+    color: black;
+}
+
+#regis {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#regis:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Estilo para el input */
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#div_foot {
+    padding: 32px 0 32px 0;
+    background-color: rgb(26, 23, 23);
+    border-top: 5px solid red; /* Ajusta el grosor y el color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */ 
+}
+
+#footer {
+    background-color: rgb(26, 23, 23);
+    margin: 0%;
+    color: rgb(240, 238, 238);
+    padding: 0 40px 0 40px;
+    text-wrap: pretty;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: normal;
+}
